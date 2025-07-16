@@ -2,12 +2,15 @@
   "name": "input-faktur",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fatihakusuma.github.io/InputFaktur",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/fatihakusuma/InputFaktur.git"
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -b gh-pages"
   },
   "dependencies": {
     "react": "^18.0.0",
