@@ -1,0 +1,7 @@
+name = "input-faktur-frontend"
+main = "build/index.html"
+compatibility_date = "2025-07-16"
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
